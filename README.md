@@ -1,5 +1,5 @@
-# The Ultimate Guide to Using Git
-***For The Impatient.***
+# Quick Guide to Git
+By Woraphan Sutthiboon
 
 > **Instructions**
 > 
@@ -222,3 +222,5 @@ Try Git:
 [markdown-cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [github-markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 [vscode-markdown-preview-enhanced]: https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
+
+---

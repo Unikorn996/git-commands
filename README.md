@@ -1,24 +1,3 @@
-
-**TODO**: Delete these instructions before you submit your work.
-## Instructions
-
-1. Read Chapters 2 & 3 of [Pro Git][ProGit]. The chapters are short.
-2. Answer these questions using [Markdown format][markdown-cheatsheet] (also [Github Markdown][github-markdown]). 
-3. Place your answers between lines beginning with 3 backquotes, which tells Markdown it should be unformatted text, and write only the commands you would type (**no** shell prompt).  E.g.:
-   ```
-   git status         CORRECT
-   $ git status       WRONG  - you do not type "$"
-   ```
-4. Indent the 3 backquotes so they line up with the question text (3 leading spaces) so Markdown formats you answer as part of the numbered item.
-   Example:
-   ```
-   git init
-   ```  
-5. **Test that your answers are correct!** There is **no excuse** for incorrect answers since you can test your answers by experimentation.      
-6. Verify that your Markdown formatting is correct -- points deducted for bad formatting. VS Code and IntelliJ have markdown previewers. You should also preview it on Github, since Github Markdown is a bit non-standard.
-
-**TODO**: Delete these instructions before you submit your work. Points deducted for each "TODO" in this file.
-
 ## Using Git
 
 [Basics](#basics)    
@@ -73,39 +52,40 @@ test/
 
 1. Add README.md and *everything* in the `src` directory to the git staging area.
    ```
-   todo  your answer here
+   git init
    ```
 
 2. Add `test/test_a.py` to the staging area (but not any other files).
    ```
-   todo  your answer
+   git add test_a.py
    ```
 
 3. List the names of files in the staging area.
    ```
-   todo  your answer
+   git diff --name-only --staged
    ```
 
 4. Remove `README.md` from the staging area. This is **very useful** if you accidentally add something you don't want to commit.
    ```
-   todo  your answer
+   git restore --staged README.md
    ```
 
 5. Commit everything in the staging area to the repository.
    ```
-   todo  your answer
+   git commit -m "..."
    ```
 
 6. In any project, there are some files and directories that you **should not** commit to git.    
    For a Python project, name *at least* files or directories that you should not commit to git:
-   - 
-   - 
-   -
+   - .gitignore
+   - .idea
+   - .cache
+   - .env
 
 
 7. Command to move all the .py files from the `src` dir to the top-level directory of this repository. This command moves them in your working copy *and* in the git repo (when you commit the change):
    ```
-
+   git mv src/*.py
    ```
 
 
